@@ -1,5 +1,7 @@
 # git-content
 
+get, create, update and delete action on files inside github repo.
+
 ## Installation
 
 ```bash
@@ -18,4 +20,10 @@ git-content get --path="test3.json" --auth="XXXXXXXXXXX" --owner="niradler" --br
 git-content update --path="test3.json" --content="new awesome content" --auth="XXXXXXXXXXX" --owner="niradler" --branch="master" --repo="config"
 
 git-content delete --path="test3.json" --auth="XXXXXXXXXXX" --owner="niradler" --branch="master" --repo="config"
+```
+
+#### Code
+
+```js
+const
 ```

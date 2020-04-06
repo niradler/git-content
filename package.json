@@ -1,7 +1,7 @@
 {
   "name": "git-content",
   "version": "0.0.1",
-  "description": "",
+  "description": "get, create, update and delete action on files inside github repo.",
   "main": "git-content.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
