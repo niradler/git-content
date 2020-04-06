@@ -10,6 +10,8 @@ npm i -g git-content
 
 ### Usage
 
+#### CLI
+
 ```bash
 git-content help
 
