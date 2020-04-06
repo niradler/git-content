@@ -25,5 +25,9 @@ git-content delete --path="test3.json" --auth="XXXXXXXXXXX" --owner="niradler" -
 #### Code
 
 ```js
-const
+const { Store, Model } = require("git-content");
+
+const store = new Store({ owner, repo, auth, branch });
+const model = new Model(store, path);
+const { text } = await model.get();
 ```
