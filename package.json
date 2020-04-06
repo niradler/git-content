@@ -12,14 +12,10 @@
     "storage",
     "cli"
   ],
-  "author": "Nir ADler",
+  "author": "Nir Adler",
   "license": "MIT",
   "dependencies": {
     "@octokit/rest": "^17.1.4",
-    "configstore": "^5.0.1",
-    "lodash.get": "^4.4.2",
-    "lodash.merge": "^4.6.2",
-    "lodash.set": "^4.3.2",
     "yargs": "^15.3.1"
   }
 }
