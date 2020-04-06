@@ -9,11 +9,13 @@ class Model {
     try {
       const file = await this.store.get(this.path);
       this.sha = file.sha;
+      this.exist = true;
 
       return file;
     } catch (error) {
+      this.exist = false;
+
       if (error.message == "Not Found" && isInit == true) {
-        this.exist = false;
         return null;
       }
 
