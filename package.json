@@ -1,6 +1,6 @@
 {
   "name": "git-content",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "get, create, update and delete action on files inside github repo.",
   "main": "git-content.js",
   "scripts": {

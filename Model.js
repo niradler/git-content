@@ -24,7 +24,6 @@ class Model {
   }
 
   save(content) {
-    console.log(this.path, content, this.sha);
     return this.store.set(this.path, content, this.sha).then((r) => {
       this.exist = true;
       return r;
